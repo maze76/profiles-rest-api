@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'profiles_api'
+    'profiles_api',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +52,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 ROOT_URLCONF = 'profiles_project.urls'
+
 
 TEMPLATES = [
     {
